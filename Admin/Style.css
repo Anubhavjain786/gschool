@@ -1,0 +1,90 @@
+﻿
+body 
+{
+	font-family:Arial, Sans-Serif;
+	
+}
+#about{
+    width:90%;
+    height:600px;
+    	border-radius:15px;
+}
+
+#side_nav_wrapper
+{
+	height:800px;
+	width:100%;
+	background:black;
+	padding:5px;
+	opacity:0.5;
+	filter:alpha(opacity=90);
+	border-radius:15px;
+}
+#nav
+{
+	width:100%;
+	height:250px;
+	background:url('../guest/images/School.jpg');
+	background-size: cover;
+
+}
+#nav_wrapper
+{
+	height:100px;
+	top:200px;
+	width:100%;
+	background:black;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:200px;
+	opacity:0.5;
+	filter:alpha(opacity=90);
+	border-radius:15px;
+}
+#nav_wrapper ul li
+{
+	list-style:none;
+	display:inline;
+	font-weight:bolder;
+	padding:1%;
+	color:red;
+	border-radius:15px;
+}
+
+.wrapper
+{
+	color: red;
+	text-decoration: none;
+	margin-top: 20px;
+	padding: 1%;
+	font-weight: bolder;
+}
+#nav_wrapper ul li:hover
+{
+	background:red;
+	transition:all 0.45s;
+	opacity:0.9;
+	filter:alpha(opacity=70);
+	border-radius:15px;
+}
+.moving-text marquee:hover
+{
+	animation-play-state:paused;
+}
+footer
+{
+	width:100%;
+	background-color: rgba(0,0,0,0.5);
+	padding:60px 0px;
+}
+footer nav
+{
+	float:left;
+}
+footer nav ul li
+{
+	display:inline-block;
+	margin-left:10px;
+	list-style:none;
+	
+}

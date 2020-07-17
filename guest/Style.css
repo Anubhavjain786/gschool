@@ -1,0 +1,174 @@
+﻿
+body 
+{
+	font-family:Arial, Sans-Serif;
+	
+}
+ #search
+    {
+    	border-style:none;
+       	color:Gray;
+    	text-decoration:none;
+    	border-radius:15px;
+    }
+    #submit
+    {
+        position:relative;
+    	background-color:White;
+    	border-style:none;
+    	color:Gray;
+    	border-radius:15px;
+    }
+    #submit:hover
+    {
+    	background-color:Red;
+    	font-size:larger;
+    }   
+     #search:hover
+     {
+         font-size:larger;
+         font-weight:bolder;
+     } 
+#about{
+    width:90%;
+    height:534px;
+    	border-radius:15px;
+}
+
+.side_nav_wrapper
+{
+	height:800px;
+	width:100%;
+	background:black;
+	opacity:0.5;
+	filter:alpha(opacity=90);
+	border-radius:15px;
+}
+
+#nav_wrapper
+{
+    position:absolute;
+	height:120px;
+	width:80%;
+	background:black;
+    top:260px;
+    left:0px;
+	margin:0px;
+	opacity:0.5;
+	filter:alpha(opacity=90);
+	border-radius:15px;
+
+}
+#nav_wrapper ul li
+{
+	list-style:none;
+  
+	display:inline;
+	font-weight:bolder;
+	padding:1%;
+	color:red;
+	border-radius:15px;
+}
+
+.wrapper
+{
+	color: red;
+	text-decoration: none;
+	margin-top: 20px;
+	padding: 5px;
+	font-weight: bolder;
+}
+#nav_wrapper ul li:hover
+{
+	background:red;
+	transition:all 0.45s;
+	opacity:0.9;
+	filter:alpha(opacity=70);
+	border-radius:15px;
+}
+.moving-text marquee:hover
+{
+	animation-play-state:paused;
+}
+footer
+{
+	width:100%;
+	background-color: rgba(0,0,0,0.5);
+	padding:60px 0px;
+	border-radius:15px;
+}
+footer nav
+{
+	float:left;
+}
+    footer nav ul li {
+        display: inline-block;
+        margin-left: 10px;
+        list-style: none;
+ }	
+    @keyframes slider
+        {
+            0%
+            {
+            left:0;
+        }
+        20%
+        {
+            left:0;
+        }
+        25%
+        {
+            left:-100%;
+        }
+        45%
+        {
+            left:-100%;
+        }
+        50%
+        {
+            left:-200%;
+        }
+        65%
+        {
+           left:-200%;
+        }
+        70%
+        {
+            left:-300%;
+        }
+        85%
+        {
+            left:-300%;
+        }
+        95%{
+            left:-400%;
+        }
+        100%
+        {
+            left:-400%;
+        }
+        }        
+        #slider
+        {
+            overflow:hidden;
+        }
+        #slider div img
+        {
+            width:20%;
+            height:100%;
+            float:left;
+            border-radius:15px;
+         }
+         #slider div
+         {
+             position:relative;
+             width:500%;
+             margin:0;
+             left:0;
+             height:250px;
+             text-align:left;
+             font-size:0;
+             animation:20s slider infinite;
+             border-radius:15px;
+             top: 0px;
+}
